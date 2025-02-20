@@ -1,0 +1,1 @@
+The following CSS code snippet demonstrates an uncommon error where the specificity of selectors leads to unexpected styling:  .container {  background-color: lightblue; }  #myElement {  background-color: lightcoral; }  #myElement .container {  background-color: lightgreen; }  <div id="myElement">  <div class="container"></div> </div>
